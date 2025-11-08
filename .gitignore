@@ -1,24 +1,51 @@
-*.log
-.DS_Store
-# .env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-/.fleet
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
-/auth.json
+# =========================================
+# Laravel base ignore
+# =========================================
+/vendor
 /node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-# /vendor
+/.env
+.env.*
 Homestead.json
 Homestead.yaml
+npm-debug.log
+yarn-error.log
+package-lock.json
+composer.lock
+
+# =========================================
+# Laravel cache & build directories
+# =========================================
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/bootstrap/cache/*
+/public/build
+/public/hot
+
+# =========================================
+# IDE / system files
+# =========================================
+.DS_Store
 Thumbs.db
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+# =========================================
+# App-specific ignores
+# =========================================
+/public/videos
+/public/sounds
+/storage/pail
+
+# =========================================
+# Optional backups / production files
+# =========================================
+.env.backup
+.env.production
