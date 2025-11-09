@@ -66,10 +66,10 @@
       Pilih video yang ingin kamu tonton, lalu klik <b>Mulai</b>. Deteksi wajah akan berjalan otomatis.
     </p>
 
-    <select id="videoSelect" class="border rounded-md p-2 w-full mb-2">
-      <option value="/videos/video1.mp4">Video 1</option>
-      <option value="/videos/video2.mp4">Video 2</option>
-    </select>
+   <select id="videoSelect" class="border rounded-md p-2 w-full mb-2">
+  <option value="{{ asset('videos/video1.mp4') }}">Video 1</option>
+  <option value="{{ asset('videos/video2.mp4') }}">Video 2</option>
+</select>
 
     <video id="playVideo" controls></video>
     <video id="webcam" autoplay muted class="hidden"></video>

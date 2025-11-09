@@ -19,12 +19,13 @@
   <div class="mb-5 w-64">
     <label class="block text-gray-700 font-semibold mb-2 text-center">Pilih Terapi Suara:</label>
     <select x-model="selectedSound"
-            class="w-full border border-gray-300 rounded-lg p-2 text-gray-700 focus:ring focus:ring-sky-200">
-      <option value="" disabled>Pilih salah satu</option>
-      <option value="{{ asset('sounds/sound_binaural.mp3') }}"> Terapi 1 - Suara Binaural</option>
-      <option value="{{ asset('sounds/sound_calm.mp3') }}"> Terapi 2 - Suara Tenang</option>
-      <option value="{{ asset('sounds/sound_nature.mp3') }}"> Terapi 3 - Suara Alam</option>
-    </select>
+  class="w-full border border-gray-300 rounded-lg p-2 text-gray-700 focus:ring focus:ring-sky-200">
+  <option value="" disabled>Pilih salah satu</option>
+  <option value="{{ asset('sounds/sound_binaural.mp3') }}">Terapi 1 - Suara Binaural</option>
+  <option value="{{ asset('sounds/sound_calm.mp3') }}">Terapi 2 - Suara Tenang</option>
+  <option value="{{ asset('sounds/sound_nature.mp3') }}">Terapi 3 - Suara Alam</option>
+</select>
+
   </div>
 
   <!-- 🎬 Tombol kontrol -->

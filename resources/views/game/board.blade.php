@@ -682,10 +682,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Jika mode sound, hidupkan musik terapi
         if (mode === "sound") {
-            therapyAudio = new Audio("/sounds/sound_calm.mp3"); // pastikan file ada di /public/sounds/
+            therapyAudio = new Audio("{{ asset('sounds/sound_calm.mp3') }}");
             therapyAudio.loop = true;
             therapyAudio.play().catch(err => console.warn("Gagal putar audio:", err));
         }
+
 
         // Tampilkan tombol selesai
         setTimeout(() => {
