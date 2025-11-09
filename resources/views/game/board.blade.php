@@ -368,9 +368,9 @@
                             <li>• Capai kotak FINISH untuk menang</li>
                             <li>• Jika melewati kotak 35, mundur</li>
                         </ul>
-                        <button id="exitGameBtn" class="mt-4 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white px-6 py-2 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105">
+                        {{--  <button id="exitGameBtn" class="mt-4 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white px-6 py-2 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105">
                             Keluar Permainan
-                        </button>
+                        </button>  --}}
                     </div>
 
                     <!-- Quick Stats -->
